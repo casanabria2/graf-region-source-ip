@@ -2,6 +2,10 @@
 
 A Python script that filters Grafana source IPs against AWS region ranges, helping you identify which Grafana IPs are located in specific AWS regions.
 
+## ⚠️ Legal Disclaimer
+
+**This project is NOT affiliated with, endorsed by, or maintained by Grafana Labs.** This is an independent, community-driven tool created for educational and operational purposes. Grafana Labs does not provide support, maintenance, or warranty for this software. Use at your own risk.
+
 ## Overview
 
 This tool downloads the current list of Grafana source IPs and compares them against AWS IP ranges for a specified region. It's useful for:
@@ -123,6 +127,15 @@ graf-region-source-ip/
 ## License
 
 This project is open source and available under the MIT License.
+
+## Disclaimer
+
+- **Not Official**: This tool is not an official Grafana Labs product or service
+- **No Warranty**: This software is provided "as is" without warranty of any kind
+- **Use at Your Own Risk**: Users assume all risks associated with using this software
+- **No Support**: No official support is provided by Grafana Labs
+- **Data Accuracy**: While efforts are made to ensure accuracy, IP ranges and data may change without notice
+- **Third-Party Dependencies**: This tool relies on external APIs and services that may change or become unavailable
 
 ## Contributing
 
